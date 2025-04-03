@@ -6,7 +6,8 @@ Boid algorithm was developed by Craig Reynolds in 1986, which simulates the floc
 ## Competitive Analysis
 There are numerous projects that have successfully implemented the Boid algorithm to simulate the movement of animal groups. While Craig Reynolds' original paper describes the algorithm in a generic manner, the main challenge lies in translating these rules into a working simulation. Many implementations exist in both 2D and 3D, showcasing realistic flocking behavior. One of the best 2D examples I found is this JavaScript-based simulation, which effectively demonstrates the algorithm's core principles.
 My project differentiates itself by significantly increasing interactivity and complexity beyond traditional boid simulations. Unlike most existing implementations, which focus solely on the three fundamental flocking rules:
-**Cohesion** – Boids move toward the perceived center of mass of nearby boids.
-**Separation** – Boids avoid crowding by maintaining a safe distance from nearby boids.
-**Alignment** – Boids align their velocity with the average velocity of their neighbors.
+#### **Cohesion** – Boids move toward the perceived center of mass of nearby boids.
+#### **Separation** – Boids avoid crowding by maintaining a safe distance from nearby boids.
+#### **Alignment** – Boids align their velocity with the average velocity of their neighbors.
+***
 In addition to these, my simulation will incorporate **predator avoidance**, user control over the **number of boids**, adjustable **visual range**, real-time **boid creation** via mouse clicks, and interactive **obstacles** that mimic real-world constraints like trees. Additionally, this will be the first project to integrate these advanced behaviors using cmu_graphics, making it unique in both its scope and implementation framework.
